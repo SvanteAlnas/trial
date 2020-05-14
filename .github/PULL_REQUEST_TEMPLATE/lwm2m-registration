@@ -1,0 +1,23 @@
+---
+name: Object | Reusable Resource Registration
+about: This form is used to register a new ```LwM2M Object``` and or ```Reusable Resource```
+title: "[lwm2m-registration]"
+labels: LwM2M Registration
+assignees: jpradocueva
+
+---
+
+## Information to register a new LwM2M Object(s) or/and Reusable Resource(s) ##
+  
+## Confirm the inclusion of a Software License for each Object file
+  - [ ] Please add an ```x``` to this box confirming that the Object file will contain a [software license](http://devtoolkit.openmobilealliance.org/OEditor/License).
+  
+
+Registration Information      | Description
+:-----------------------------|:------------------------------
+Your name & Surname           | <input your name>
+GitHub Reservation Issue Number   | <input number of Objects if any>
+Branch Name Allocated by Maintainer  | <input number of Reusable Resources if any>
+Name of your Organization or Company   | <input your organization name>
+Registration Comment  | <please add a comment that may assist the Maintainer with your registration>
+
