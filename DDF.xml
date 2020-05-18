@@ -580,7 +580,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <TSLink>1</TSLink>
     </Item>
     <Item>
-        <ObjectID>3200</ObjectID>
+        <ObjectID>3201</ObjectID>
         <URN>urn:oma:lwm2m:ext:3200</URN>
         <Name>Digital Input</Name>
         <Description>This IPSO object is a generic object that can be used with any kind of digital input interface. Specific objects for a given range of sensors are described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</Description>
@@ -596,8 +596,8 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
 
     <Item>
         <ObjectID>3201</ObjectID>
-        <URN>urn:oma:lwm2m:ext:3201</URN>
-        <Name>Digital Output</Name>
+        <URN>urn:oma:lwm2m:ext:3202</URN>
+        <Name>Digital Intput</Name>
         <Description>This IPSO object is a generic object that can be used with any kind of digital output interface. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -612,8 +612,8 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
     <Item>
         <ObjectID>3202</ObjectID>
         <URN>urn:oma:lwm2m:ext:3202</URN>
-        <Name>Analog Input</Name>
-        <Description>This IPSO object is a generic object that can be used with any kind of analogue input interface. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</Description>
+        <Name></Name>
+        <Description></Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
         <Ver>1.0</Ver>
@@ -629,7 +629,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <URN>urn:oma:lwm2m:ext:3203</URN>
         <Name>Analog Output</Name>
         <Description>This IPSO object is a generic object that can be used with any kind of analogue input interface. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</Description>
-        <Owner>IPSO Alliance</Owner>
+        <Owner></Owner>
         <Source>1</Source>
         <Ver>1.0</Ver>
         <DDF>3203.xml</DDF>
@@ -645,8 +645,8 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Name>Generic Sensor</Name>
         <Description>This IPSO object allow the description of a generic sensor. It is based on the description of a value and a unit according to the SenML specification. Thus, any type of value defined within this specification can be reporting using this object. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</Description>
         <Owner>IPSO Alliance</Owner>
-        <Source>1</Source>
-        <Ver>1.0</Ver>
+        <Source></Source>
+        <Ver>1.0.2.4</Ver>
         <DDF>3300.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
@@ -661,10 +661,10 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Description>This IPSO object should be used over a luminosity sensor to report a remote luminosity measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the luminosity sensor. The unit used here is Lux.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-        <Ver>1.0</Ver>
-        <DDF>3301.xml</DDF>
-        <Vorto></Vorto>
-        <DDFLink>1</DDFLink>
+        <Ver></Ver>
+        <DDF>3301.pdf</DDF>
+        <Vorto>www.test.com</Vorto>
+        <DDFLink></DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
@@ -679,8 +679,8 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Ver>1.0</Ver>
         <DDF>3302.xml</DDF>
         <Vorto></Vorto>
-        <DDFLink>1</DDFLink>
-        <TS></TS>
+        <DDFLink>2</DDFLink>
+        <TS>www.test.com</TS>
         <TSLink>0</TSLink>
     </Item>
 
@@ -700,7 +700,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
     </Item>
 
     <Item>
-        <ObjectID>3304</ObjectID>
+        <ObjectID>3306</ObjectID>
         <URN>urn:oma:lwm2m:ext:3304</URN>
         <Name>Humidity</Name>
         <Description>This IPSO object should be used over a humidity sensor to report a remote humidity measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the humidity sensor. The unit used here is relative humidity as a percentage.</Description>
