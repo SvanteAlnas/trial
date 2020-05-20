@@ -2593,34 +2593,6 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <TSLink>0</TSLink>
     </Item>
     <Item>
-        <ObjectID>10264</ObjectID>
-        <URN>urn:oma:lwm2m:x:10264</URN>
-        <Name>Delivery Schedule</Name>
-        <Description>The Delivery Schedule object provides a means for controlling the periodic delivery of interval and event data to the LwM2M server.</Description>
-        <Owner>South East Water Corporation</Owner>
-        <Source>2</Source>
-        <Ver>1.0</Ver>
-        <DDF>10264.xml</DDF>
-        <Vorto></Vorto>
-        <DDFLink>1</DDFLink>
-        <TS></TS>
-        <TSLink>0</TSLink>
-    </Item>
-    <Item>
-        <ObjectID>10265</ObjectID>
-        <URN>urn:oma:lwm2m:x:10265</URN>
-        <Name>Leakage Detection Configuration</Name>
-        <Description>The leakage detection configuration object provides a means for configuring the timing and sampling frequency of a vibration based network leak detector</Description>
-        <Owner>South East Water Corporation</Owner>
-        <Source>2</Source>
-        <Ver>1.0</Ver>
-        <DDF>10265.xml</DDF>
-        <Vorto></Vorto>
-        <DDFLink>1</DDFLink>
-        <TS></TS>
-        <TSLink>0</TSLink>
-    </Item>
-    <Item>
         <ObjectID>10266</ObjectID>
         <URN>urn:oma:lwm2m:x:10266</URN>
         <Name>Water Flow Readings</Name>
