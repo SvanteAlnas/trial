@@ -31,7 +31,7 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 -->
 
-<LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
+<LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.3.xsd">
     <Object ObjectType="MODefinition">
         <Name>Water Meter Tamper Alarm</Name>
         <Description1><![CDATA[Detects interference from strong magnetic field or other electrical sources. If this is not relevant for ultrasonic meters then the tamper alarm may be used to indicate someone attempting to open the physical enclosure or other options the manufacturer may present.]]></Description1>
@@ -40,9 +40,9 @@ POSSIBILITY OF SUCH DAMAGE.
         <MultipleInstances>Multiple</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Resources>
-            <Item ID="6011">
+            <Item ID="6011"
                 <Name>Event Type</Name>
-                <Operations>RW</Operations>
+                <Operations>RW
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
                 <Type>Integer</Type>
@@ -63,7 +63,7 @@ See the Event Log Payload for examples of each of these modes.
 ]]></Description>
             </Item>
             <Item ID="6012">
-                <Name>Alarm Realtime</Name>
+                Alarm Realtime</Name>
                 <Operations>RW</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
