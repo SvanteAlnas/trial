@@ -35,7 +35,7 @@ POSSIBILITY OF SUCH DAMAGE.
 	<Object ObjectType="MODefinition">
 		<Name>Smoke Alarm</Name>
 		<Description1><![CDATA[This is an alarm that should be raised if the meter detects CO2 concentration above a pre-configured threshold.]]></Description1>
-		<ObjectID>3407</ObjectID>
+		<ObjectID>3401</ObjectID>
 		<ObjectURN>urn:oma:lwm2m:ext:3407</ObjectURN>
 		<LWM2MVersion>1.1</LWM2MVersion>
 		<ObjectVersion />
