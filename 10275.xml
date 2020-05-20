@@ -42,7 +42,7 @@ POSSIBILITY OF SUCH DAMAGE.
         <Resources>
             <Item ID="6011"
                 <Name>Event Type</Name>
-                <Operations>RW
+                <Operations>RW<Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
                 <Type>Integer</Type>
