@@ -40,7 +40,7 @@ POSSIBILITY OF SUCH DAMAGE.
         <MultipleInstances>Multiple</MultipleInstances>
         <Mandatory>Optional</Mandatory>
         <Resources>
-            <Item ID="6011"
+            <Item ID="6011">
                 <Name>Event Type</Name>
                 <Operations>RW<Operations>
                 <MultipleInstances>Single</MultipleInstances>
@@ -63,7 +63,7 @@ See the Event Log Payload for examples of each of these modes.
 ]]></Description>
             </Item>
             <Item ID="6012">
-                Alarm Realtime</Name>
+                <Name>Alarm Realtime</Name>
                 <Operations>RW</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
