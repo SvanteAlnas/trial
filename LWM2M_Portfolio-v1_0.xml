@@ -112,7 +112,7 @@ Arguments definitions are described in Section 5.2.1 as well as in table 2 of th
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>Integer</Type>
-				<RangeEnumeration>[0-2]</RangeEnumeration>
+				<RangeEnumeration>[0..2]</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[This Resource contains the state related to the process triggered by GetAuthData  request.
 0 :  IDLE_STATE :  AuthData doesn’t contain any valid data
