@@ -96,7 +96,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Name>Device</Name>
         <Description>It provides a range of device related information which can be queried by the LWM2M Server, and a device reboot and factory reset function.</Description>
         <Owner>OMA</Owner>
-        <Source>0</Source>
+        <Source>5</Source>
         <Ver>1.0</Ver>
         <DDF>LWM2M_Device-v1_0_3.xml</DDF>
         <Vorto></Vorto>
@@ -168,9 +168,9 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <URN>urn:oma:lwm2m:oma:5</URN>
         <Name>Firmware Update</Name>
         <Description>It enables management of firmware which is to be updated. This Object includes installing firmware package, updating firmware, and performing actions after updating firmware</Description>
-        <Owner>OMA</Owner>
-        <Source>0</Source>
-        <Ver>1.0</Ver>
+        <Owner>OMA<Owner>
+        <Source>0<Source>
+        <Ver>1.0<Ver>
         <DDF>LWM2M_Firmware_Update-v1_0_3.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
@@ -601,7 +601,6 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Description>This IPSO object is a generic object that can be used with any kind of digital output interface. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-        <Ver>1.0</Ver>
         <DDF>3201.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
