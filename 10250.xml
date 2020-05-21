@@ -60,8 +60,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <Type>Opaque</Type>
         <RangeEnumeration>
         </RangeEnumeration>
-        <Units>
-        </Units>
+        <Units>abcdefgh</Units>
         <Description><![CDATA[Downlink application data, e.g. application response message of uplink data.]]></Description>
       </Item>
     </Resources>
