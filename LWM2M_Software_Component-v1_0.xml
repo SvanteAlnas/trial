@@ -75,7 +75,7 @@ LEGAL DISCLAIMER
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>0-255 bytes</RangeEnumeration>
+				<RangeEnumeration>0..255 bytes</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Name or identifier of the software component]]></Description>
 			</Item>
@@ -95,7 +95,7 @@ LEGAL DISCLAIMER
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>0-255 bytes</RangeEnumeration>
+				<RangeEnumeration>0..255 bytes</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Version of the software component.]]></Description>
 			</Item>

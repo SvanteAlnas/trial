@@ -87,7 +87,7 @@ executable Resource can work with.
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Integer</Type>
-				<RangeEnumeration>0-15</RangeEnumeration>
+				<RangeEnumeration>0..15</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Group name of Device Capabilities
 0: SENSOR: luminosity, presence,temp,humidity

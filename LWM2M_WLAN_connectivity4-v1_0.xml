@@ -134,7 +134,7 @@ When disabled radio must also be disabled]]></Description>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>1-32 Bytes</RangeEnumeration>
+				<RangeEnumeration>1..32 Bytes</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[The Service Set Identifier for this interface.]]></Description>
 			</Item>
@@ -176,7 +176,7 @@ When disabled radio must also be disabled]]></Description>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Integer</Type>
-				<RangeEnumeration>0-255</RangeEnumeration>
+				<RangeEnumeration>0..255</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[The current radio channel in use by this interface.
 0: Disabled
@@ -278,7 +278,7 @@ Write – Only.]]></Description>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>1-64 Bytes</RangeEnumeration>
+				<RangeEnumeration>1..64 Bytes</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[WPA/WPA2 Key Phrase.
 Write Only.]]></Description>
@@ -308,7 +308,7 @@ Write Only.]]></Description>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>1-64 Bytes</RangeEnumeration>
+				<RangeEnumeration>1..64 Bytes</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[WPA/WPA2 Key Phrase.
 Write Only.]]></Description>
@@ -362,7 +362,7 @@ Write Only.]]></Description>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>1-256 Bytes</RangeEnumeration>
+				<RangeEnumeration>1..256 Bytes</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[RADIUS Authentication Server Address]]></Description>
 			</Item>
@@ -380,7 +380,7 @@ Write Only.]]></Description>
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
-				<RangeEnumeration>1-256 Bytes</RangeEnumeration>
+				<RangeEnumeration>1..256 Bytes</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[RADIUS Shared Secret]]></Description>
 			</Item>
