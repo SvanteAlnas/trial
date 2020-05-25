@@ -3215,6 +3215,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Description>This LWM2M Object includes CCU(Central Control Unit) information and the link to CCU APPs.</Description>
         <Owner>CloudMinds</Owner>
         <Source>2</Source>
+	<Source>2</Source>
         <Ver>1.0</Ver>
         <DDF>10320.xml</DDF>
         <Vorto></Vorto>
@@ -3256,10 +3257,6 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Name>CCU Control</Name>
         <Description>This LWM2M Object includes all operations on CCUs.</Description>
         <Owner>CloudMinds</Owner>
-        <Source>2</Source>
-        <Ver>1.0</Ver>
-        <DDF>10323.xml</DDF>
-        <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
@@ -3300,7 +3297,7 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <Owner>CloudMinds</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF>10326.xml</DDF>
+        <DDF>10327.xml</DDF>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
