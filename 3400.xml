@@ -49,7 +49,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Mandatory>Optional</Mandatory>
 				<Type>String</Type>
 				<RangeEnumeration></RangeEnumeration>
-				<Units></Units>
+				<Units>Feet</Units>
 				<Description><![CDATA[LWM2M Object versioning label.]]></Description>
 			</Item>
 			<Item ID="901">
@@ -69,7 +69,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Unsigned Integer</Type>
 				<RangeEnumeration>0..255</RangeEnumeration>
-				<Units></Units>
+				<Units>hours</Units>
 				<Description><![CDATA[Error status is a bit coded value that shows all current errors on the object. The error status changes as soon as a new error occurs or an old one is resolved. Bitwise: 0 (LSB): Hardware_Error, 1: Temperature_Error, 2: Quality_Error]]></Description>
 			</Item>
 			<Item ID="908">
@@ -79,7 +79,7 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Mandatory>Mandatory</Mandatory>
 				<Type>String</Type>
 				<RangeEnumeration>1..64 bytes</RangeEnumeration>
-				<Units></Units>
+				<Units>GBs</Units>
 				<Description><![CDATA[Describes the location of the device within the building. The content of the string is site specific.]]></Description>
 			</Item>
 		</Resources>
