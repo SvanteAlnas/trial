@@ -74,7 +74,7 @@ LEGAL DISCLAIMER
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Integer</Type>
-				<RangeEnumeration>0-2</RangeEnumeration>
+				<RangeEnumeration>0..2</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[State of the device:
 0: unlocked state Normal operation.
@@ -124,7 +124,7 @@ To render the device fully inoperable the device has been fully locked.]]></Desc
 				<MultipleInstances>Single</MultipleInstances>
 				<Mandatory>Mandatory</Mandatory>
 				<Type>Integer</Type>
-				<RangeEnumeration>0-8</RangeEnumeration>
+				<RangeEnumeration>0..8</RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Contains the result of a lock and wipe operation
 0: Default
