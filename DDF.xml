@@ -3992,4 +3992,18 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
+    <Item>
+        <ObjectID>20002</ObjectID>
+        <URN>urn:oma:lwm2m:x:20002</URN>
+        <Name>MQTT Publication</Name>
+        <Description>Test Description</Description>
+        <Owner>Microsoft</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>20001.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
 </DDFList>
