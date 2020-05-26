@@ -33,6 +33,7 @@ The above license is used as a license under copyright only. Please
 reference the company patent licensing terms:
 https://ioterop.com/
 -->
+
 <LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.openmobilealliance.org/tech/profiles/LWM2M-v1_1.xsd">
     <Object ObjectType="MODefinition">
         <Name>MQTT Publication</Name>
@@ -46,13 +47,13 @@ https://ioterop.com/
         <Resources>
             <Item ID="0">
                 <Name>Source</Name>
-                <Operations>RW</Operations>
+                <Operations>nil</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
                 <Type>Corelnk</Type>
                 <RangeEnumeration></RangeEnumeration>
-                <Units></Units>
-                <Description><![CDATA[The source of the data to publish (e.g. "</sensors/temp>", or "</3303/0/5700>;</3336/0>"). If this Resource is empty, the published data are implementation dependent.]]></Description>
+                <Units>meters</Units>
+                <Description><![CDATA[The source of the data to publish. If this Resource is empty, the published data are implementation dependent.]]></Description>
             </Item>
             <Item ID="1">
                 <Name>Broker</Name>
@@ -69,7 +70,7 @@ https://ioterop.com/
                 <Operations>RW</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Mandatory</Mandatory>
-                <Type>String</Type>
+                <Type>Unsigned</Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[The MQTT topic to publish to.]]></Description>
@@ -104,7 +105,7 @@ https://ioterop.com/
                 <Units></Units>
                 <Description><![CDATA[If true or if the Resource is not present, the Device publishes the data pointed by the Source Resource to the MQTT Broker pointed by the Broker Resource using the MQTT topic indicated in the Topic Resource. If false, the Device does nothing.]]></Description>
             </Item>
-            <Item ID="6">
+            <Item ID="3001">
                 <Name>Encoding</Name>
                 <Operations>RW</Operations>
                 <MultipleInstances>Single</MultipleInstances>
