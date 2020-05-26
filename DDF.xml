@@ -3978,4 +3978,18 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
+	<Item>
+        <ObjectID>20001</ObjectID>
+        <URN>urn:oma:lwm2m:x:20001</URN>
+        <Name>MQTT Publication</Name>
+        <Description>This LwM2M Object is used to configure data reporting over MQTT.</Description>
+        <Owner>IoTerop</Owner>
+        <Source>2</Source>
+        <Ver>1.0</Ver>
+        <DDF>20001.xml</DDF>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
 </DDFList>
