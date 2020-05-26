@@ -70,7 +70,7 @@ For more information about this object, please contact Bilhanan.Silverajan@tuni.
         <Operations>R</Operations>
         <MultipleInstances>Single</MultipleInstances>
         <Mandatory>Optional</Mandatory>
-        <Type>Objlnk</Type>
+        <Type>Test</Type>
         <RangeEnumeration></RangeEnumeration>
         <Units></Units>
         <Description>
