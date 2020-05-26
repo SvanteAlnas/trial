@@ -3,9 +3,9 @@
 <LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
   <Object ObjectType="MODefinition">
     <Name>MQTT Publication</Name>
-    <Description1><![CDATA[This LWM2M Object includes SpringMotor information.]]></Description1>
+    <Description1><![CDATA[Test Description]]></Description1>
     <ObjectID>20002</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:x:10368</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:x:20002</ObjectURN>
     <LWM2MVersion>1.1</LWM2MVersion>
     <ObjectVersion>1.2</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>
