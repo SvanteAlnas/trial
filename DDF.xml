@@ -6,7 +6,7 @@
         <ObjectID>0</ObjectID>
         <!-- URN of the object -->
         <URN>urn:oma:lwm2m:oma:0</URN>
-        <!-- Name of the object -->
+        <!-- Name of the object     -->
         <Name>LWM2M Security</Name>
         <!-- Description of the Object -->
         <Description>This LwM2M Object provides the keying material of a LwM2M Client appropriate to access a specified LwM2M Server. One Object Instance SHOULD address a LwM2M Bootstrap-Server.
