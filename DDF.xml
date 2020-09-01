@@ -10,20 +10,7 @@
 
     
 
-    <Item>
-        <ObjectID>3</ObjectID>
-        <URN>urn:oma:lwm2m:oma:3</URN>
-        <Name>Device</Name>
-        <Description>New description 2</Description>
-        <Owner>OMA</Owner>
-        <Source>0</Source>
-        <Ver>1.0</Ver>
-        <DDF>version_history/3-1_0_3.xml</DDF>
-        <Vorto></Vorto>
-        <DDFLink>1</DDFLink>
-        <TS>http://www.openmobilealliance.org/release/LightweightM2M/V1_1-20180710-A/OMA-TS-LightweightM2M_Core-V1_1-20180710-A.pdf</TS>
-        <TSLink>1</TSLink>
-    </Item>
+    
     
 
     <Item>
