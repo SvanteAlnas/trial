@@ -65,7 +65,7 @@
         <ObjectID>7</ObjectID>
         <URN>urn:oma:lwm2m:oma:7</URN>
         <Name>Connectivity Statistics</Name>
-        <Description>This LWM2M Objects enables client to collect statistical information and enables the LWM2M Server to retrieve these information, set the collection duration and reset the statistical parameters.</Description>
+        <Description>New description</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
         <Ver>1.0</Ver>
