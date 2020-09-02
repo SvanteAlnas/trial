@@ -67,7 +67,7 @@
         <ObjectID>8</ObjectID>
         <URN>urn:oma:lwm2m:oma:8</URN>
         <Name>Lock and Wipe</Name>
-        <Description>This LWM2M objects provides the resources needed to perform the lock and wipe operations</Description>
+        <Description>Update 8</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
         <Ver>1.0</Ver>
